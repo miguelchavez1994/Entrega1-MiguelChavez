@@ -42,19 +42,15 @@ while ((nota6 <0) || (nota6 >20)) {
 
 
 
-
-
-
-
 //_________PROCESAMIENTO DE DATOS__________//
 
 
 
-function calcularEdadPromedio (n1, n2, n3, n4, n5, n6){
+function calcularNotaPromedio (n1, n2, n3, n4, n5, n6){
     return (n1 + n2 + n3 + n4+ n5 + n6) / 6;
 }
 
-let = notaFinal = calcularEdadPromedio(nota1, nota2, nota3, nota4, nota5, nota6)
+let = notaFinal = calcularNotaPromedio(nota1, nota2, nota3, nota4, nota5, nota6)
 
 
 
@@ -64,7 +60,7 @@ let = notaFinal = calcularEdadPromedio(nota1, nota2, nota3, nota4, nota5, nota6)
 if (notaFinal >= 11 && notaFinal <= 13) {
     alert("Tu nota final es " + notaFinal + ". Pasaste por poco!")
 } else if (notaFinal >= 14 && notaFinal <= 16){
-    alert("Tu nota final es " + notaFinal + ". Pasaste pero puedes hacarlo ")
+    alert("Tu nota final es " + notaFinal + ". Pasaste pero puedes hacerlo ")
 } else if (notaFinal >= 17) {
     alert("Tu nota final es " + notaFinal + ". Eres un crack!")
 } else {

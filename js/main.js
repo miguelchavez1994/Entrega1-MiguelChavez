@@ -60,7 +60,7 @@ let = notaFinal = calcularNotaPromedio(nota1, nota2, nota3, nota4, nota5, nota6)
 if (notaFinal >= 11 && notaFinal <= 13) {
     alert("Tu nota final es " + notaFinal + ". Pasaste por poco!")
 } else if (notaFinal >= 14 && notaFinal <= 16){
-    alert("Tu nota final es " + notaFinal + ". Pasaste pero puedes hacerlo ")
+    alert("Tu nota final es " + notaFinal + ". Pasaste pero puedes hacerlo mejor")
 } else if (notaFinal >= 17) {
     alert("Tu nota final es " + notaFinal + ". Eres un crack!")
 } else {
